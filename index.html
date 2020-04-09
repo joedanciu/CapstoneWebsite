@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    <meta name="viewport" content ="width=device-width", initial-scale=1; /> 
+    -->
+    <title> Match Source </title>
+    
+    
+    <!-- LINKING MY STYLESHEET NAMED INDEX -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+
+</head>
+    
+<body>
+    <div class="topnav" style="font-family: Raleway;">
+  <a class="topnavActive" href="index.html"style="font-family: RalewayBold; " id="logo">Match Source</a>
+  <a class="topnav" href="aboutUs.html" style="text-align: right;
+    float: right;">About Us</a>
+  <a href="deliverables.html" id="deliverable" style="text-align: right;
+    float: right;">Deliverables</a>
+  <a href="projectDetails.html" id="deliverable" style="text-align: right;
+    float: right;">Project Details</a>
+    </div>
+    
+<!--Messing with Logo Placement-->
+    
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src = "assets/logo.png" alt = "Logo" class = "topleft" style="position: center; width: 200px;height: auto"> 
+<!--
+<table style="width:100%; margin:0 auto;">
+    <tr>
+        <td style="width: 40%">
+            <div id="cardSmall" class="card shadow1">
+                
+                <h2 class="RalewayBold">
+                    The Problem
+                </h2>
+                 -->
+    <!--
+                <p>
+                    Motivating newcomers to contribute to Open Source Software and retaining them in the project over time stubbornly remains a perennial weakness of OSS development.
+                </p>-->
+                <!--<p style="color: blue; cursor: pointer" onclick="myFunction()">
+                    MORE
+                </p>-->
+     <!--           
+            </div>
+        </td>
+        
+        <td style="width: 40%">
+            
+            <div id="cardSmall2" class="card shadow1">
+                
+                <h2 class="RalewayBold">
+                    The Solution
+                </h2>
+                
+                <p>
+                    We will solve the problem by developing a robust mechanism for evaluate and reveal the gap between a newcomer’s skills and the skills required for a project on its work list.
+                </p>
+                -->
+                <!--<p style="color: blue; cursor: pointer" onclick="myFunction2()">
+                    MORE
+                </p>-->
+            <!--</div>
+        </td>
+    </tr>
+    
+</table>-->
+<div class="card2 shadow1" style="width: 90%">
+    <h1 class="Raleway" style="text-align: center">Project Description</h1>
+    <p style="text-align: center">Match Source will be working on a web application to help pair GitHub developers to their next open source project. Users will be able to input their username into our application and receive a list of projects that suit their experience level. Initially data will be mined from their account and compared to our database of OSS project. OSS project will also be able to request to added if they are not in out database already. We hope that this will help ease the initial information overload and lead to more contributions. </p>
+    <br>
+</div>
+    
+    
+    <div class="card2 shadow1" style="width:90%">
+        <h2 class="RalewayBold">Our Client</h2>
+        <table>
+            <tr>
+                <td>
+                    <img src = "SteinmacherPhoto.jpg" alt = "Logo" class = "topleft" style="position: center; width: 125px; height: auto; border-radius: 10px;">
+                </td>
+                <td style="vertical-align: top; padding-top: 20px; padding-left: 40px;">
+                    Our client, Dr Igor Steinmacher, completed his PhD in Computer Science at the University of São Paulo and is now an Assistant Professor/Researcher at Northern Arizona University. He is currently working on helping motivate newcomers to contribute to Open Source Software. Our contribution will become one of the tools used in his product.
+                    <br>
+                    <br>
+                    <a href="https://www.igor.pro.br/" id="Igor Homepage">
+                        Link to Igor's Homepage
+                    </a>
+                </td>
+            </tr>
+        </table> 
+        
+</div>  
+    
+    
+    <div class="card2 shadow1" style="width:90%">
+        <table style="width: 100%">
+            <tr></tr>
+            <tr>
+                <td style="width: 50%">
+                    <h3 class="RalewayBold" style="width: 100%">Our Team</h3>
+                </td>
+                
+                <td style="width: 50%">
+                    <h3 class="RalewayBold" style="width: 100%">Our Mentor</h3>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    Joseph Danciu<br>
+                    Adriana Aguilera<br>
+                    Jevin Dement<br>
+                    Ugo Dike <br>
+                    Stavros Triantis<br>
+                </td>
+                <td>
+                    Fabio Santos<br>
+                    <a href="mailto:jdk77@nau.edu">fd252@nau.edu</a>
+                </td>
+            </tr>
+        </table> 
+        
+</div> 
+
+
+<div class="footer">© Nothern Arizona University, Match Source</div>
+
+
+<script>
+    
+    function myFunction()
+    {
+        var cardSmall = document.getElementById("cardSmall");
+        if(cardSmall.classList.contains("card") == true)
+        {
+            cardSmall.classList.remove("card");
+            cardSmall.classList.add("cardBig");
+        }
+        else
+        {
+            cardSmall.classList.add("card");
+            cardSmall.classList.remove("cardBig");
+        }
+    }
+    
+    function myFunction2()
+    {
+        var cardSmall = document.getElementById("cardSmall2");
+        if(cardSmall.classList.contains("card") == true)
+        {
+            cardSmall.classList.remove("card");
+            cardSmall.classList.add("cardBig");
+        }
+        else
+        {
+            cardSmall.classList.add("card");
+            cardSmall.classList.remove("cardBig");
+        }
+    }
+</script>
+    
+    
+</body>
+</html>
